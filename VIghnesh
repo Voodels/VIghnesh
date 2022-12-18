@@ -1,0 +1,26 @@
+https://mega.nz/folder/V8Zmha6Q#tekfSs9A7qNI5U7iKr03yA
+#include <stdio.h>
+int Factorial(int X);
+int main()
+{
+    int Num1 ;
+    printf("Enter the value of Num1 :-");
+    scanf("%d",&Num1);
+    
+    printf("The Factorial of num1 is :%d\n",Factorial(Num1));
+    
+    
+
+    return 0;
+}
+int Factorial(int X){
+    int f;
+    if (x==1||x==0){
+        return 1;
+    }
+    else(){
+         f = x*Factorial(x-1);
+         return f;
+    }
+    
+}
